@@ -32,7 +32,7 @@ Returns the current balance of the contract.
 Deploy the contract on an Ethereum-compatible blockchain using a Solidity compiler (version 0.8.0 or later).
 
 ### Contract Address
-- **Address**:0x8300c89C9b297072BF35DE468323A5d7BA332096
+- **Address**: [0x8300c89C9b297072BF35DE468323A5d7BA332096]
 ## Security Considerations
 - The random selection method uses `keccak256`, which is not truly random on-chain. Consider integrating a secure randomness source like Chainlink VRF.
 - Ensure sufficient gas fees are available for winner selection.
